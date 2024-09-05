@@ -1,0 +1,101 @@
+<html>
+    <head>
+        <meta name="viewport" content="with=device-width, initial-scale=1.0">
+        <title>Anime Webpage
+        </title>
+        <link rel="stylesheet" href="styles.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,900&family=Unbounded:wght@700&display=swap" rel="stylesheet">
+    </head>
+    <body>
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="logo.jpg"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hidemenu()"></i>
+                <ul>
+                    <li><a href="">HOME</a></li>
+                    <li><a href="">RECENT</a></li>
+                    <li><a href="">TOP</a></li>
+                    <li><a href="">ABOUT</a></li>
+                    <li><a href="">BLOG</a></li>
+                </ul>
+            </div> 
+            <i class="fa fa-bars" onclick="showmenu()"></i>
+        </nav>
+        <div class="textbox">
+            <h1>World's Biggest Anime page</h1>
+            <p>Welcome to the world's biggest anime page.Here you can find any information about any anime created.</p>
+            <a href="" class="btn"> Click here to catch up the information on latest releases.</a>
+        </div>
+        </section>
+        
+        
+        
+        
+        
+        <section class="course">
+            <h1> Animes available</h1>
+            <p>
+                Here are some of the newly released top tier animes.
+            </p>
+            <div class="row">
+                <div class="course-col">
+                    <h3>Naruto</h3>
+                </div>
+                <div class="course-col">
+                    <h3>One piece</h3>
+                </div>
+                <div class="course-col">
+                    <h3>DeathNote</h3>
+                </div>
+            </div>
+        </section>
+        
+        
+        
+        
+        
+        
+        
+        <section class="campus">
+            <h1>Our anime website</h1>
+            <p>A small website for anime fans.</p>
+            <div class="row">
+                <div class="campus-col">
+                    <img src="download.jpg">
+                    <div class="layer">
+                    <h3>
+                        ANIME
+                        </h3></div>
+                </div>
+                <div class="campus-col">
+                    <img src="download (1).jpg">
+                    <div class="layer">
+                    <h3>
+                        ANIME
+                        </h3></div>
+                </div>
+                <div class="campus-col">
+                    <img src="download (2).jpg">
+                    <div class="layer">
+                    <h3>
+                        ANIME
+                        </h3></div>
+                </div>
+            </div>
+        </section>
+        <script>
+            var navLinks=document.getElementById("navLinks");
+            function showmenu()
+            {
+                navLinks.style.right="0";
+            }
+            function hidemenu()
+            {
+                navLinks.style.right="-200px";
+            }
+        </script>
+    </body>
+</html>
